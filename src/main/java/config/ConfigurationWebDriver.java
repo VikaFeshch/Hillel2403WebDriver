@@ -17,8 +17,8 @@ public class ConfigurationWebDriver {
         }*/
         ChromeOptions options=new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-        options.addArguments("start-maximized");
-        options.addArguments("incognito");
+        options.addArguments("--start-maximized");
+        options.addArguments("--incognito");
         WebDriver driver=new ChromeDriver();
    //     driver.manage().window().maximize();
         driver.get("https://kharkiv.ithillel.ua");
