@@ -28,7 +28,7 @@ public class ConfigurationWebDriver {
         options.addArguments("--start-maximized");
         options.addArguments("--incognito");
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
     }
 
     private static void createChrome() {

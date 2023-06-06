@@ -4,6 +4,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 public class TestGoogle extends BaseClass {
+
     public static void main(String[] args) throws InterruptedException {
         driver.get("https://google.com");
         driver.findElement(By.id("APjFqb")).sendKeys("Ukraine");

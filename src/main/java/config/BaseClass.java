@@ -14,7 +14,7 @@ public class BaseClass {
     }
     @AfterClass
     public static void AfterParent() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(1000);
         driver.quit();
     }
 

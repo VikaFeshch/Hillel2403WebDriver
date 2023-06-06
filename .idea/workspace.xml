@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c02e9553-7021-43da-bc60-a9cca391c149" name="Changes" comment="added lesson12 WebDriver">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/ConfigWebDriverLes1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/WebDrivers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW11_VikaFeshchenko_FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestGoogle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestHillel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestHome11fromTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestWiki.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runJunitRule.java" afterDir="false" />
+    <list default="true" id="c02e9553-7021-43da-bc60-a9cca391c149" name="Changes" comment="added hw11">
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW12_VikaFeshchenko.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/ConfigurationWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ConfigurationWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGoogle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestHome11fromTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHome11fromTeacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,28 +62,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HW11_VikaFeshchenko_FirstTest">
-    <configuration name="HW11_VikaFeshchenko_FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW11_VikaFeshchenko_FirstTest" />
+  <component name="RunManager" selected="JUnit.HW12_VikaFeshchenko.hw12">
+    <configuration name="TestGoogle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestGoogle" />
       <module name="Hillel2403WebDriver" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW11_VikaFeshchenko_FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HW12_VikaFeshchenko.hw12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hillel2403WebDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HW11_VikaFeshchenko_FirstTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HW11_VikaFeshchenko_FirstTest.hw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hillel2403WebDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HW11_VikaFeshchenko_FirstTest" />
-      <option name="METHOD_NAME" value="hw" />
+      <option name="MAIN_CLASS_NAME" value="HW12_VikaFeshchenko" />
+      <option name="METHOD_NAME" value="hw12" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +89,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHome11fromTeacher.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHome11fromTeacher.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hillel2403WebDriver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHome11fromTeacher" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHome11fromTeacher.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hillel2403WebDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestHome11fromTeacher" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HW11_VikaFeshchenko_FirstTest" />
-        <item itemvalue="JUnit.TestHome11fromTeacher.test1" />
+        <item itemvalue="JUnit.HW12_VikaFeshchenko.hw12" />
+        <item itemvalue="JUnit.TestHome11fromTeacher.test3" />
+        <item itemvalue="Application.TestGoogle" />
         <item itemvalue="JUnit.TestHome11fromTeacher" />
-        <item itemvalue="JUnit.HW11_VikaFeshchenko_FirstTest.hw" />
-        <item itemvalue="Application.HW11_VikaFeshchenko_FirstTest" />
+        <item itemvalue="JUnit.TestHome11fromTeacher.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -155,11 +149,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684250081855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added hw11">
+      <created>1685797558426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685797558426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added lesson12 WebDriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lesson12 WebDriver" />
+    <MESSAGE value="added hw11" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hw11" />
   </component>
 </project>
