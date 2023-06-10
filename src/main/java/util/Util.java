@@ -14,6 +14,7 @@ public class Util {
             try {
                 driver.findElement(by);
                 bool = true;
+                js.executeScript("window.scrollBy(0,500)");
             }catch (Exception ignore){
                 js.executeScript("window.scrollBy(0,500)");
   /*              try {
