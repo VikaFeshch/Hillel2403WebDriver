@@ -28,7 +28,7 @@ public class TestContactsPage extends BaseClass {
     public static void before_test() {
         driver.get(HillelUrls.CONTACTS_URL);
         contactsPage = PageFactory.initElements(driver, MainPageFactory.class);
-      //  contactsPage=new MainPageFactory(driver); if driver is init in the MainPageFactory
+      //  contactsPage=new MainPageFactory(driver); //if driver is init in the MainPageFactory
     }
 
     @Test

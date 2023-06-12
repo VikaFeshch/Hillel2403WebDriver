@@ -13,6 +13,7 @@ public class TestMainPage extends BaseClass {
 
     @Test
     public void nameButton(){
+
         System.out.println(mainPage.getConsultButton().getText());
     }
 }
